@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Information</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script src = "infos.js"></script>
+	<form id = "infos" action = "drawing.html">
+		<fieldset>
+			<legend>Please enter the following information</legend><br>
+
+			Horizontal place (in %) : <br>
+			<input type="number" name="x" min = "0" max = "100" value = "50"><br><br>
+
+			Vertical place (in %)(from top to bottom) <br>
+			<input type="number" name="y" min = "0" max = "100" value = "100"><br><br>
+
+			1) First part of the rule : <br>
+			<input type="text" name="rule1" value = "F"><br><br>
+			
+			1) Second part of the rule : <br>
+			<input type="text" name="rule2" value = "FF+[+F-F-F]-[-F+F+F]"><br><br>
+			
+			2) First part of the rule (if there is anything): <br>
+			<input type="text" name="rule3"><br><br>
+			
+			2) Second part of the rule (if there is anything): <br>
+			<input type="text" name="rule4"><br><br>
+
+			3) First part of the rule (if there is anything): <br>
+			<input type="text" name="rule5"><br><br>
+			
+			3) Second part of the rule (if there is anything): <br>
+			<input type="text" name="rule6"><br><br>
+
+
+			Initial rule : <br>
+			<input type="text" name="rule_init" value = "F"><br><br>
+
+			The size of one line : <br>
+			<input type="number" name="taille" min = "50" max = "200" value = "80"><br><br>
+
+			The angle of rotation (in deg): <br>
+			<input type="number" name="angle" min = "0" max = "360" value = "30"><br><br>
+
+			Initial angle (in deg): <br>
+			<input type="number" name="angle_init" min = "0" max = "360" value = "270"><br><br>
+
+			<input type="submit">
+		</fieldset>
+	</form>
+</body>
+</html>
